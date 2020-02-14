@@ -2,8 +2,9 @@
   "name": "proyecto-unidad-2",
   "version": "1.0.0",
   "description": "proyecto para la unidad 2",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jondeltoro/proyecto-unidad-2/issues"
   },
-  "homepage": "https://github.com/jondeltoro/proyecto-unidad-2#readme"
+  "homepage": "https://github.com/jondeltoro/proyecto-unidad-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
